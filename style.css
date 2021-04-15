@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: black;
+    margin-bottom: 40%;
+}
+.container{
+    width: 100%;
+}
+
+input{
+    margin: 5px;
+    width: 20%;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgb(184, 181, 181);
+    height: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+}
+header h3{
+    color:rgb(225, 226, 226);
+    text-align: center;
+    padding: 10px;
+}
+.valor{border: 1px solid rgb(202, 202, 202);
+    margin: 0 auto;
+    width: 76%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+    background-color: rgb(104, 180, 144);
+    padding: 10px 0;
+    color: rgb(56, 56, 56);
+}
+.escolha{border-radius: 5px;
+    width: 70%;
+    margin: 0 auto;
+    background-color: rgb(104, 180, 144);
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 10px;
+    color: rgb(56, 56, 56);
+}
+.escolha h4{
+    margin-bottom:5px ;
+    padding-bottom: 5%;
+    color: rgb(56, 56, 56);
+}
+.btn{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px;
+}
+.btn button{
+    background-color:rgb(85, 173, 214);
+    color:#fff;
+    padding: 5px;
+    width: 95%;
+    outline: 0px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn button:hover{
+    background-color:rgb(50, 128, 165);
+    
+}
+.resposta{border: 1px solid rgb(150, 150, 150);
+    width:40%;
+    height: 40px;
+    padding: 10px;
+    margin: 5px auto;
+    font-size: 2rem;
+}
+select{
+    width:80%;
+    height:2rem;
+}
+@media only screen and (min-width: 768px) {
+    header{
+        margin-bottom: 10%;
+    }
+    main{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .escolha h4{
+        padding-bottom: 1%;
+    }
+    .resposta{
+        width:20%;
+        text-align: center;
+    }
+}
